@@ -1,0 +1,137 @@
+html
+{
+    background-color: rgb(214, 162, 66);
+    
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+    text-align: center;
+    background-color: rgb(124, 122, 255);
+    box-shadow: 5px 5px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width: 40%;
+   
+    
+}
+h2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+   text-align: center;
+   font-style: italic;
+}
+.PI1
+{
+    width: 100%;
+    text-align: center;
+}
+#P01
+{
+    width: 20%;
+    padding: 10px;
+    border-radius: 40px;
+    /*border: 10px dotted rgb(72, 255, 179);*/
+    text-align: center;
+    background-color: rgb(144, 255, 227);
+    box-shadow: 5px 5px;
+    
+}
+
+h3
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    background-color: rgb(32, 184, 255);
+    box-shadow: 5px 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+#P02
+{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: rgb(255, 230, 0);
+    box-shadow: 5px 5px;
+    
+}
+#P03
+{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: rgb(187, 255, 184);
+    box-shadow: 5px 5px; 
+}
+.text
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    width: 450px;
+    margin-left: 25%;
+    font-style: italic;
+    
+}
+.text1
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+    margin: 30px;
+    font-style: italic;
+    
+}
+.text2
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+    margin: 30px;
+    font-style: italic;
+     
+}
+
+.All
+{   
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+   
+}
+.display
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap:wrap;
+    align-items: center;
+
+}
+div > img
+{
+  border: 10px solid rgb(219, 165, 255);
+  width: 70%;
+  background-color: rgb(211, 177, 255);
+  box-shadow: 5px 5px;
+  
+}

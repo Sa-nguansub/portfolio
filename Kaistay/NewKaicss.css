@@ -1,0 +1,274 @@
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+    
+    margin :0 auto;
+    padding: 0px;
+}
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(255, 240, 158);
+    font-size: 400%;
+    text-align: center;
+    background-color: rgb(255, 40, 40);
+    box-shadow: 5px 5px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+   
+    
+}
+#header
+{
+	grid-column: 1 / span 4;
+    text-align: center;
+
+}
+
+#PI1
+{
+    grid-column: 1/span2;
+    text-align: center;
+}
+#P01
+{
+    width: 50%;
+
+    /*position: relative;*/
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#PI2
+{
+    position :relative;
+    text-align: center;
+    
+    
+}
+#P02
+{
+    width: 40%;
+    
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#P03
+{
+    width: 40%;
+    
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#Ingred
+{
+    font-size: 120%;
+    font-style: italic ;
+    
+    background-color: rgb(255, 87, 21);
+    color: rgb(255, 240, 158);
+    box-shadow: 5px 5px;
+    
+       
+    width: 250px;
+    height: 430px;
+
+    /*margin-right:10px;
+    margin-top : 5px;
+    margin-bottom: 20px;*/
+    grid-column: 3 /span1;
+    
+}
+#Ingred>h3
+{
+    text-align: center;
+}
+#MainServe
+{
+    font-size: 120%;
+    font-style: italic;
+    background-color: rgb(255, 87, 21);
+    color: rgb(255, 240, 158);
+    box-shadow: 5px 5px;
+    width: 250px;
+    height: 300px;
+
+    /*margin-right:10px;
+    margin-top : 5px;
+    margin-bottom: 20px;*/
+    grid-column: 3 /span1;
+    
+}
+#Serve
+{
+    font-size: 110%;
+    text-align: center;
+}
+#Stepp
+{
+/*grid-column: 1/span4;*/
+font-style: italic;
+margin-right: 10px;
+margin-left: 10px;
+margin-Top: 25px;
+
+grid-column: 2/span4;
+}
+#Step
+{
+    font-family: cursive;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-Top: 25px;
+    
+    grid-column: 2 / span 4;
+}
+#Stepp > h3
+{
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 87, 21);
+    color: rgb(255, 240, 158);
+    box-shadow: 5px 5px;
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1366px)
+{
+	.grid-container 
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        width: fit-content;
+		  
+	}
+
+#header
+{
+	grid-column: 1 / 1 / 1 span3;
+}
+
+#PI1
+{
+    /*grid-column: 1/span2;
+    text-align: center;*/
+}
+
+#Ingred
+{
+    grid-column: 3/span1;
+    margin-right:10px;
+    margin-top : 5px;
+    margin-bottom: 20px;
+}
+
+#Ingred>h3
+{
+    /*margin-left: 500px;*/
+}
+
+#Stepp
+{
+    grid-column: 2/span1;
+}
+
+#MainServe
+{
+    grid-column: 4/span2/1;
+    margin-right:10px;
+    margin-top : 70px;
+    margin-bottom: 15px;
+}
+
+
+#P02
+{
+width: 40%;
+display: inline-block;
+flex-wrap: wrap;
+
+
+margin-top: 10px;
+border-radius: 5px;
+
+}
+
+#P03
+{
+width: 40%;
+display: inline-block;
+flex-wrap: wrap;
+
+margin-top: 10px;
+border-radius: 5px;
+
+}
+
+@media screen and (max-width: 414px) and (max-width: 736px)
+{
+	.grid-container 
+    {
+        display: grid;
+        grid-template-columns:auto;
+        grid-gap: 10px;
+        width: fit-content;
+		 
+	}
+	#header
+    {
+		grid-column: 1 / 1/ 3;
+	}
+	#Ingred
+    {
+        grid-column: 2/3;
+	}
+    
+    #Stepp
+    {
+        grid-column: 3/span4/1;
+    }
+    .Step
+    {
+        margin-Top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    #PI2
+    {
+        position: relative;
+        text-align: center;
+        grid-column: 1/span4;
+    }
+    #P02
+    {
+    width: 40%;
+    display: inline-block;
+    flex-wrap: wrap;
+
+    
+    margin-top: 10px;
+    border-radius: 5px;
+
+    }
+
+    #P03
+    {
+    width: 40%;
+    display: inline-block;
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+    border-radius: 5px;
+
+    }
+    
+
+}
+}
